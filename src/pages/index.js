@@ -19,11 +19,11 @@ export default function Home() {
   };
 
   const data = [
-    { src: '/image/index/analisis-datos-reunion-equipo.jpg', alt: 'Analisis de Datos', link: '/analisis-datos', title: 'Análisis de Datos' },
+    { src: '/image/index/analisis-datos-reunion-equipo.jpg', alt: 'Analisis de Datos', link: '/analisis-de-datos', title: 'Análisis de Datos' },
     { src: '/image/index/codigo-fuente-web.jpg', alt: 'Desarrollo Web', link: '/desarrollo-web', title: 'desarrollo Web' },
     { src: '/image/index/servidores-data-center.jpg', alt: 'Data Center', link: '/data-center', title: 'data Center' },
-    { src: '/image/Redes/conexion-global-servicios-tecnologicos-an.jpg', alt: 'Arquitectura de Redes', link: '/arquitectura-redes', title: 'arquitectura de Redes' },
-    { src: '/image/index/programacion-software.jpg', alt: 'Desarrollo de Software', link: '/desarrollo-software', title: 'Desarrollo de Software' }
+    { src: '/image/Redes/conexion-global-servicios-tecnologicos-an.jpg', alt: 'Arquitectura de Redes', link: '/arquitectura-de-redes', title: 'arquitectura de Redes' },
+    { src: '/image/index/programacion-software.jpg', alt: 'Desarrollo de Software', link: '/desarrollo-de-software', title: 'Desarrollo de Software' }
   ];
 
   const settings = {
@@ -61,7 +61,7 @@ export default function Home() {
       </Head>
 
       <Header />
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32" data-aos="fade-in">
         <img
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
           alt="Imagen de personas trabajando como un equipo"
